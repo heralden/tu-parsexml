@@ -4,14 +4,9 @@ Scripts for parsing XML files for specific values. Available in two flavors, Nod
 
 # Usage (sh script)
 
-The shell script depends on libxml. Run with `./parse-xml.sh file.xml`.
+The shell script depends on libxml for the xmllint command. Run with `./parse-xml.sh file.xml`.
 
 # Usage (Node.js script)
 
-The Node.js script requires Node.js and npm (node package manager) installed on your system. Once you have those installed, run the following commands inside the directory. 
-```
-npm install
-npm start
-```
-The script can be run with `./parse-xml.js file.xml`.
+The Node.js script requires Node.js and npm (node package manager) installed on your system. Once you have those installed, run `npm install` inside the directory to install the xml2js dependency. You can then run the script with `./parse-xml.js file.xml`.
 
